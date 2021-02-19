@@ -1,0 +1,2 @@
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+deep_learning/saved_models/rnn_test_loss_76.66.ckpt filter=lfs diff=lfs merge=lfs -text

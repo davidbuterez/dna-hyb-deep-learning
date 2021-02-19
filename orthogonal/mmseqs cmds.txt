@@ -1,0 +1,5 @@
+mmseqs createdb init.fasta seqsDB --dbtype 2 --max-seq-len 20
+
+mmseqs search seqsDB seqsDB alignDB tmp -s 7.5 -k 5 --max-seqs 10000 --exact-kmer-matching 1 --spaced-kmer-mode 0 --min-seq-id 0.25 --alignment-mode 4 -e inf --min-aln-len 5 --sub-mat dnafull --max-seq-len 20 --strand 0 --search-type 3
+
+mmseqs convertalis seqsDB seqsDB alignDB alnRes --search-type 3 --sub-mat dnafull --format-output 'query,target,qseq,tseq'
