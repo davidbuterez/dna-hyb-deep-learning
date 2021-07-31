@@ -1,0 +1,1 @@
+dnahyb_dataset_extracted_features.csv contains only the yield at 57C. The yields for the other temperatures (for all sequences) are available in dnahyb_dataset.csv.
