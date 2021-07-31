@@ -1,1 +1,5 @@
-dnahyb_dataset_extracted_features.csv contains only the yield at 57C. The yields for the other temperatures (for all sequences) are available in dnahyb_dataset.csv.
+dnahyb_dataset_extracted_features.csv (archived with 7zip) contains only the yield at 57C. The yields for the other temperatures (for all sequences) are available in dnahyb_dataset.csv (archived with 7zip).
+
+splits.7z contains the train/validation/test splits in .csv format, for all temperatures.
+
+splits_h5_and_json.7z provides the same splits but only for yields at 57C. Earlier on, loading from .h5 was done with deepdish. Since deepdish might not work well on some platforms (e.g. Google Colab), the splits are also available in JSON format. These files are provided since they are smaller and some code still uses them.
