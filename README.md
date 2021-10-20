@@ -1,4 +1,4 @@
-# Efficient approximation of DNA hybridisation using deep learning
+# Scaling up DNA digital data storage by efficiently predicting DNA hybridisation using deep learning
 ![](figures/main-figure.png)
 
 ## Abstract
@@ -6,6 +6,29 @@
 Deoxyribonucleic acid (DNA) has shown great promise in enabling computational applications, most notably in the fields of DNA data storage and DNA computing. The former exploits the natural properties of DNA, such as high storage density and longevity, for the archival of digital information, while the latter aims to use the interactivity of DNA to encode computations. Recently, the two paradigms were jointly used to formulate the *near-data processing* concept for DNA databases, where the computations are performed directly on the stored data. The fundamental, low-level operation that DNA naturally possesses is that of hybridisation, also called annealing, of complementary sequences. Information is encoded as DNA strands, which will naturally bind in solution, thus enabling search and pattern-matching capabilities. Being able to control and predict the process of hybridisation is crucial for the ambitious future of the so-called *Hybrid Molecular-Electronic Computing*. Current tools are, however, limited in terms of throughput and applicability to large-scale problems.
 
 In this work, we present the first comprehensive study of machine learning methods applied to the task of predicting DNA hybridisation. For this purpose, we introduce a synthetic hybridisation dataset of over 2.5 million data points, enabling the use of a wide range of machine learning algorithms, including the latest in deep learning. Depending on the hardware, the proposed models provide a reduction in inference time ranging from one to over two orders of magnitude compared to the state-of-the-art, while retaining high fidelity. We then discuss the integration of our methods in modern, scalable workflows.
+
+## Publication
+
+The paper is now published in [*Nature Scientific Reports*](https://www.nature.com/articles/s41598-021-97238-y).
+
+BibTeX citation:
+```
+@Article{Buterez2021,
+author={Buterez, David},
+title={Scaling up DNA digital data storage by efficiently predicting DNA hybridisation using deep learning},
+journal={Scientific Reports},
+year={2021},
+month={Oct},
+day={15},
+volume={11},
+number={1},
+pages={20517},
+abstract={Deoxyribonucleic acid (DNA) has shown great promise in enabling computational applications, most notably in the fields of DNA digital data storage and DNA computing. Information is encoded as DNA strands, which will naturally bind in solution, thus enabling search and pattern-matching capabilities. Being able to control and predict the process of DNA hybridisation is crucial for the ambitious future of Hybrid Molecular-Electronic Computing. Current tools are, however, limited in terms of throughput and applicability to large-scale problems. We present the first comprehensive study of machine learning methods applied to the task of predicting DNA hybridisation. For this purpose, we introduce an in silico-generated hybridisation dataset of over 2.5 million data points, enabling the use of deep learning. Depending on hardware, we achieve a reduction in inference time ranging from one to over two orders of magnitude compared to the state-of-the-art, while retaining high fidelity. We then discuss the integration of our methods in modern, scalable workflows.},
+issn={2045-2322},
+doi={10.1038/s41598-021-97238-y},
+url={https://doi.org/10.1038/s41598-021-97238-y}
+}
+```
 
 ## Sequence computation scripts
 
